@@ -93,6 +93,7 @@ const SpecailContainer = styled.div`
   @media only screen and (max-width: 600px) {
     .stack span {
       --stack-height: calc(100% / var(--stacks) - 60px);
+      font-size: 4rem;
     }
   }
 
@@ -149,15 +150,15 @@ const TypeX = styled.div`
 
   @media only screen and (max-width: 600px) {
     .typewriter p {
-      width: 85%;
-      font-size: 1rem;
+      width: min-content;
+      font-size: 0.96rem;
     }
     @keyframes typing {
       from {
         width: 0;
       }
       to {
-        width: 85%;
+        width: min-content;
       }
     }
   }

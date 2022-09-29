@@ -27,6 +27,13 @@ const Particle = () => {
           },
         },
         fpsLimit: 90,
+        interactivity: {
+          modes: {
+            push: {
+              quantity: 4,
+            },
+          },
+        },
         particles: {
           color: {
             value: "#ffffff",
@@ -43,12 +50,12 @@ const Particle = () => {
           },
           move: {
             directions: "none",
-            enable: false,
+            enable: true,
             outModes: {
               default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 6,
             straight: false,
           },
           number: {
