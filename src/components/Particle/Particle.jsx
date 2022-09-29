@@ -27,20 +27,6 @@ const Particle = () => {
           },
         },
         fpsLimit: 90,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-          },
-        },
         particles: {
           color: {
             value: "#ffffff",
@@ -53,16 +39,16 @@ const Particle = () => {
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             directions: "none",
-            enable: true,
+            enable: false,
             outModes: {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false,
           },
           number: {
