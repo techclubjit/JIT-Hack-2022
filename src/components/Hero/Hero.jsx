@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Particle from "../Particle/Particle";
 
 const Hero = () => {
   return (
@@ -150,14 +149,15 @@ const TypeX = styled.div`
 
   @media only screen and (max-width: 600px) {
     .typewriter p {
-      width: 87%;
+      width: 85%;
+      font-size: 1rem;
     }
     @keyframes typing {
       from {
         width: 0;
       }
       to {
-        width: 87%;
+        width: 85%;
       }
     }
   }
