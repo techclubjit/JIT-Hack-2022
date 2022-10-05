@@ -23,13 +23,13 @@ const NavbarX = () => {
               <Nav.Link eventKey={2} href="#memes">
                 Stories
               </Nav.Link>
-              <Nav.Link eventKey={3} href="#memes">
+              <Nav.Link eventKey={3} href="#memes1">
                 Sponsors
               </Nav.Link>
-              <Nav.Link eventKey={4} href="#memes">
+              <Nav.Link eventKey={4} href="#memes2">
                 FAQ
               </Nav.Link>
-              <Nav.Link eventKey={5} href="#memes">
+              <Nav.Link eventKey={5} href="#memes3">
                 Team
               </Nav.Link>
             </Nav>
