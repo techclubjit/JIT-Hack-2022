@@ -6,7 +6,9 @@ const Hero = () => {
     <>
       <HeroContainer className="d-flex align-items-center justify-content-center">
         <SpecailContainer>
-          TechClub
+          <span className="font-face-gm" style={{ textTransform: "none" }}>
+            TechClub of JyothyIT
+          </span>
           <div className="stack">
             <span className="one">JITHack 2022</span>
             <span className="two">JITHack 2022</span>
