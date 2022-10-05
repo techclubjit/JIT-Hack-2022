@@ -6,35 +6,30 @@ import Navbar from "react-bootstrap/Navbar";
 const NavbarX = () => {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        style={{
-          borderBottom: "1.5px solid white",
-        }}
-      >
+      <Navbar collapseOnSelect expand="lg" bg="gray" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">JITHack 2022</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <span className="font-face-gm" style={{ fontSize: "1.5rem" }}>
+              JITHack
+            </span>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="#deets">About</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Stories
+              <Nav.Link eventKey={1} href="#deets">
+                About
               </Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
                 Stories
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={3} href="#memes">
                 Sponsors
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={4} href="#memes">
                 FAQ
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={5} href="#memes">
                 Team
               </Nav.Link>
             </Nav>

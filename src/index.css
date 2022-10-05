@@ -17,3 +17,13 @@ html {
 ::-webkit-scrollbar-thumb {
   background: #ff0000;
 }
+
+@font-face {
+  font-family: "HACKED";
+  src: local("HACKED"), url("./assets/fonts/HACKED.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.font-face-gm {
+  font-family: "HACKED";
+}
