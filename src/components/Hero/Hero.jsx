@@ -2,6 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Hero = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <>
       <HeroContainer className="d-flex align-items-center justify-content-center">
@@ -17,7 +27,7 @@ const Hero = () => {
           <div style={{ marginTop: "1rem", color: "#8a4ed5" }}>
             DEC 16TH - 17TH | OFFLINE
           </div>
-          <StyledButton>
+          {/* <StyledButton>
             <div class="btn-cont">
               <a class="btn" href="#">
                 Register
@@ -27,7 +37,13 @@ const Hero = () => {
                 <span class="line-4"></span>
               </a>
             </div>
-          </StyledButton>
+          </StyledButton> */}
+          <div
+            class="apply-button"
+            data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            data-button-theme="light"
+            style={{ marginTop: "20px" }}
+          ></div>
           <TypeX>
             <div className="typewriter" style={{ marginTop: "2rem" }}>
               <code>

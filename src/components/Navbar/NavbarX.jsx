@@ -17,21 +17,21 @@ const NavbarX = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link eventKey={1} href="#deets">
+              <Nav.Link eventKey={1} href="#about">
                 About
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              {/* <Nav.Link eventKey={2} href="#memes">
                 Stories
-              </Nav.Link>
-              <Nav.Link eventKey={3} href="#memes1">
+              </Nav.Link> */}
+              <Nav.Link eventKey={3} href="#sponsor">
                 Sponsors
               </Nav.Link>
-              <Nav.Link eventKey={4} href="#memes2">
+              <Nav.Link eventKey={4} href="#faqs">
                 FAQ
               </Nav.Link>
-              <Nav.Link eventKey={5} href="#memes3">
+              {/* <Nav.Link eventKey={5} href="#memes3">
                 Team
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

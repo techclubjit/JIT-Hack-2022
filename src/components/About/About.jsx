@@ -21,7 +21,7 @@ const StyledGrid = styled.div`
 
 const About = () => {
   return (
-    <StyledCont>
+    <StyledCont id="about">
       <span
         className="font-face-gm"
         style={{ fontSize: "3rem", textAlign: "center", width: "100%" }}

@@ -3,9 +3,13 @@ import Accordion from "react-bootstrap/Accordion";
 function Faqs() {
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative", marginTop: "5rem" }}>
         <div className="d-flex align-items-center justify-content-center">
-          <h1 className="font-face-gm" style={{ color: "white" }}>
+          <h1
+            className="font-face-gm"
+            id="faqs"
+            style={{ color: "white", fontSize: "3rem" }}
+          >
             Frequenty Asked Questions
           </h1>
         </div>
@@ -32,8 +36,8 @@ function Faqs() {
                 How Much Is The Registration Fee?
               </Accordion.Header>
               <Accordion.Body>
-                The registration fees for Hackman v5.0 is ₹300 per person in the
-                team.
+                There is no registration fee for JITHack 2022. You can register
+                on Devfolio.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
@@ -41,25 +45,13 @@ function Faqs() {
                 How Many People Can Form a Team
               </Accordion.Header>
               <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A team can have a maximum of 4 members and a minimum of 2
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
               <Accordion.Header>How Long Is The Event</Accordion.Header>
               <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The event will be held for 24 hours from 10:00 AM on 26th
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="4">
@@ -67,13 +59,8 @@ function Faqs() {
                 Where Will The Hackathon Be Held?
               </Accordion.Header>
               <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The hackathon will be held offline at Jyothi Institute of
+                Technology, Bangalore
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
