@@ -102,7 +102,7 @@ function Footer() {
                 <div class="copyright-text">
                   <p>
                     Copyright &copy; 2022, All Right Reserved{" "}
-                    <a href="jithack.netlify.app">JITHack</a>
+                    <a href="https://jithack.netlify.app">JITHack</a>
                   </p>
                 </div>
               </div>
