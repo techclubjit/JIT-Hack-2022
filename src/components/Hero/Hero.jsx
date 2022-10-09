@@ -42,7 +42,7 @@ const Hero = () => {
             class="apply-button"
             data-hackathon-slug="YOUR-HACKATHON-SLUG"
             data-button-theme="light"
-            style={{ marginTop: "20px" }}
+            style={{ marginTop: "50px" }}
           ></div>
           <TypeX>
             <div className="typewriter" style={{ marginTop: "2rem" }}>

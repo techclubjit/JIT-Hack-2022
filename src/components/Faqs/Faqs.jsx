@@ -1,22 +1,28 @@
 import Accordion from "react-bootstrap/Accordion";
+import styled from "styled-components";
+
+const Styledspan = styled.h1`
+  font-size: 3rem;
+  color: white;
+
+  @media (max-width: 600px) {
+    font-size: 1.9rem;
+  }
+`;
 
 function Faqs() {
   return (
     <>
       <div style={{ position: "relative", marginTop: "5rem" }}>
         <div className="d-flex align-items-center justify-content-center">
-          <h1
-            className="font-face-gm"
-            id="faqs"
-            style={{ color: "white", fontSize: "3rem" }}
-          >
+          <Styledspan className="font-face-gm" id="faqs">
             Frequenty Asked Questions
-          </h1>
+          </Styledspan>
         </div>
 
         <div
           style={{
-            margin: `1% 20% 0% 20%`,
+            margin: `1% 10% 0% 10%`,
             backgroundColor: `white`,
             position: `relative`,
             borderRadius: `10px`,
