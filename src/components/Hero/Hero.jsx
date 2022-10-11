@@ -25,7 +25,7 @@ const Hero = () => {
             <span className="three">JITHack 2022</span>
           </div>
           <div style={{ marginTop: "1rem", color: "#8a4ed5" }}>
-            DEC 16TH - 17TH | OFFLINE
+            DEC 17TH - 18TH | OFFLINE
           </div>
           {/* <StyledButton>
             <div class="btn-cont">

@@ -7,7 +7,7 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #0a0a0a;
   position: relative;
 }
 .footer-cta {
@@ -140,8 +140,9 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #202020;
+  background: #0a0a0a;
   padding: 25px 0;
+  width: 100%;
 }
 .copyright-text p {
   margin: 0;
@@ -159,6 +160,6 @@ ul {
   color: #ff5e14;
 }
 .footer-menu li a {
-  font-size: 14px;
+  font-size: 18px;
   color: #878787;
 }

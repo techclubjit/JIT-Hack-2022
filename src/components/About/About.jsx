@@ -14,7 +14,7 @@ const StyledCont = styled.div`
 `;
 
 const StyledGrid = styled.div`
-  max-width: 1000px;
+  // max-width: 1000px;
   text-align: center;
   font-size: 1.2rem;
 `;
@@ -35,16 +35,14 @@ const About = () => {
           flexWrap: "wrap",
         }}
       >
-        <StyledGrid>
+        <StyledGrid className="container">
           <div style={{ textAlign: "justify" }}>
             <p style={{ paddingBottom: "1rem" }}>
               JITHack is a design and development event which takes place on Dec
               16, 2022 which will be held on-campus, the participating team gets
-              24 hours to build something incredible.
-            </p>
-            <p style={{ paddingBottom: "1rem" }}>
-              Whether you're totally new to tech & design or a seasoned pro,
-              come spend 24 hours making something great with us!
+              24 hours to build something incredible.Whether you're totally new
+              to tech & design or a seasoned pro, come spend 24 hours making
+              something great with us!
             </p>
 
             <p>

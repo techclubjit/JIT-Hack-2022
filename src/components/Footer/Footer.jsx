@@ -24,15 +24,6 @@ function Footer() {
               </div>
               <div class="col-xl-4 col-md-4 mb-30">
                 <div class="single-cta">
-                  <i class="fas fa-phone"></i>
-                  <div class="cta-text">
-                    <h4>Made with Love</h4>
-                    <span>by TechClub of JyothyIT</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-md-4 mb-30">
-                <div class="single-cta">
                   <i class="far fa-envelope-open"></i>
                   <div class="cta-text">
                     <h4>Mail us</h4>
@@ -42,11 +33,20 @@ function Footer() {
                   </div>
                 </div>
               </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-phone"></i>
+                  <div class="cta-text">
+                    <h4>Made with Love</h4>
+                    <span>by TechClub of JyothyIT</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="footer-content pt-5 pb-5">
             <div class="row">
-              <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="col-xl-8 col-lg-8 mb-50">
                 <div class="footer-widget">
                   <div class="footer-logo">
                     <a href="index.html">
@@ -98,7 +98,7 @@ function Footer() {
         <div class="copyright-area">
           <div class="container">
             <div class="row">
-              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="col-xl-6 col-lg-6 text-lg-left">
                 <div class="copyright-text">
                   <p>
                     Copyright &copy; 2022, All Right Reserved{" "}

@@ -22,7 +22,7 @@ function Faqs() {
 
         <div
           style={{
-            margin: `1% 10% 0% 10%`,
+            margin: `1% 15% 0% 15%`,
             backgroundColor: `white`,
             position: `relative`,
             borderRadius: `10px`,
