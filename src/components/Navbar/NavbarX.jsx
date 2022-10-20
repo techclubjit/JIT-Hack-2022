@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Logosvg from "../../assets/Logo.svg";
 
 const NavbarX = () => {
   return (
@@ -9,9 +10,10 @@ const NavbarX = () => {
       <Navbar collapseOnSelect expand="lg" bg="gray" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            <span className="font-face-gm" style={{ fontSize: "1.5rem" }}>
+            {/* <span className="font-face-gm" style={{ fontSize: "1.5rem" }}>
               JITHack
-            </span>
+            </span> */}
+            <img src={Logosvg} alt="logo" style={{ width: "50px" }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
